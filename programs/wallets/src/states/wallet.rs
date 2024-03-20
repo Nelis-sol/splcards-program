@@ -11,9 +11,14 @@ pub struct Wallet {
     pub required_signer1: bool,
     pub signer2: Pubkey,
     pub required_signer2: bool,
-    pub allow_list: Option<Vec<Pubkey>>,
-    pub block_list: Option<Vec<Pubkey>>,
+    pub allow_list: Option<Vec<Pubkey>>, // keep into account limitations of size
+    pub block_list: Option<Vec<Pubkey>>, // point to PDA for limited use of pubkeys to keep size into account
+    // use a enum (called list with items allow list and blocklist) instead of 2 fields (allow + block list) to XOR allow_list XOR block_list
+    // trade-off: lower compute -> research / test it
+
+    // consider using a look-up table only for block_list (allow_list is only for a few pubkeys).
     pub spending_window: Option<(i64, i64)>,
+    // leave it with i64 for now, but if you want to optimize for compute/space use u32
     pub bump: u8,
 }
 
