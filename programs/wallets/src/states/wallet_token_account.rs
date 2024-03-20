@@ -68,6 +68,7 @@ impl TryFrom<Vec<u8>> for WalletTokenAccount {
     }
 }
 
+// remove trait, this can be a method
 pub trait WalletTokenAccountAccount {
     fn new(
         &mut self,
