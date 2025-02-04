@@ -1,6 +1,7 @@
 # About the project
 
-![alt text](https://github.com/Nelis-sol/splcards-program/blob/main/splcards.png "SPL Card")
+![alt text](https://github.com/Nelis-sol/splcards-program/blob/main/spl-card.jpg "SPL Card")
+![alt text](https://github.com/Nelis-sol/splcards-program/blob/main/spl-card-app.jpg "SPL Cards app")
 
 
 ## SPL Cards program
@@ -9,9 +10,10 @@ SPL Cards offers highly convenient and safe storage of crypto, using physical ha
 
 The program works by enabling users to wrap their tokens into a wrapped token. The wrapped token is on the token2022 standard and user Token Extensions (including transfer hooks). On every transaction, these transfer hooks are triggered and checks are done to ensure if the transaction is valid (and adheres to the user-defined policies).
 
-The SPL Cards program was part of my work with Turbine and can be found here: [text](https://github.com/Web3-Builders-Alliance/Nelis-sol_Sol_1Q24/tree/main/capstone/splcards).
+The SPL Cards program was part of my work with Turbine and can be found here: [WBA repository](https://github.com/Web3-Builders-Alliance/Nelis-sol_Sol_1Q24/tree/main/capstone/splcards).
 
-**Optional policies include:**
+<br />
+**Optional SPL Cardspolicies include:**
   * **Add 2nd signer** (transactions need 2 signers)
   * **Create allow list with destination addresses** (only transactions to these addresses are allowed)
   * **Create blacklisted addresses** (transactions to these addresses will be blocked)
