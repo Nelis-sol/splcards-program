@@ -1,7 +1,8 @@
 # About the project
 
-![alt text](https://github.com/Nelis-sol/splcards-program/blob/main/spl-card.jpg "SPL Card")
-![alt text](https://github.com/Nelis-sol/splcards-program/blob/main/spl-card-app.jpg "SPL Cards app")
+<img width="400" alt="SPL Card" src="https://github.com/Nelis-sol/splcards-program/blob/main/spl-card.jpg">
+&nbsp;&nbsp;
+<img width="400" alt="SPL Cards app" src="https://github.com/Nelis-sol/splcards-program/blob/main/spl-card-app.jpg">
 
 
 ## SPL Cards program
@@ -33,7 +34,7 @@ https://solscan.io/account/6jPXVk78mLJq3MAz24gasxmYmV2f3bYDd5Rp5zK92tew?cluster=
 
 - [x] **Rust**
 - [x] **Anchor**  
-- [x] **Token Extensions**
+- [x] **Token Extensions** (transfer hooks)
 
 <br />
 
