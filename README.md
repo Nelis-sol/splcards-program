@@ -83,6 +83,6 @@ Contact me via email (nelis.sol@protonmail.com) or on X (@nelis-sol)
 
 <br /><br />
 
-<img width="800" alt="SPL Card" src="https://github.com/Nelis-sol/splcards-program/blob/main/spl-card-v2.jpg">
+<img width="800" alt="SPL Card" src="https://github.com/Nelis-sol/splcards-program/blob/main/spl-cards-v2.jpeg">
 &nbsp;&nbsp;
 
